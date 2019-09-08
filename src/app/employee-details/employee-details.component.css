@@ -1,0 +1,288 @@
+.cr-breadcrumb{
+    margin-top: 15px !important;
+    font-family: Montersserat, sans-serif !important;
+}
+.breadcrumb > .active {
+    color: #144c87!important;
+    font-weight: 600;
+}
+.breadcrumb {
+    margin-top: 12px!important;
+    font-weight: 500;
+    font-family:  'Open Sans',sans-serif!important;
+}
+
+.cr-page-heading{
+    text-align: center !important;
+    font-family: Montersserat, sans-serif !important;
+    font-size: 14pt !important;
+    font-weight: 500 !important;
+    color: #16276c  !important;
+    margin-bottom: 5px !important;
+}
+
+
+@import "../../scss/spinner";
+@import "../../scss/body_container";
+.cr-breadcrumb{
+    margin-top: 15px !important;
+    font-family: Montersserat, sans-serif !important;
+}
+.cr-page-heading{
+    text-align: center !important;
+    font-family: Montersserat, sans-serif !important;
+    font-size: 14pt !important;
+    font-weight: 500 !important;
+    color: #16276c  !important;
+    margin-bottom: 5px !important;
+}
+.stripIm{
+    text-align: center !important;
+}
+.imgstrip{
+      width:100px !important;
+}
+.widget-section1{
+    box-shadow: 0px 0px 6px 4px #dedede !important;
+  }
+.cr-header{
+    padding-left: 7px !important;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+.cr-membername
+{
+    color: #16276c  !important;
+    font-family: Montersserat, sans-serif !important;
+}
+.cr-memberid
+{
+    font-family: Montersserat, sans-serif !important;
+}
+.cr-me-hr{
+    width:97%;
+}
+.h5{
+    font-size: 15px !important;
+    padding-left: 10px !important;
+    font-weight: normal !important;
+    color:#5079a5 !important;
+    font-family: Montersserat, sans-serif !important;
+}
+.cr-btnpos{
+    float: right;
+    right: 4%;
+}
+.crb.col-md-6{
+    padding-left: 49px !important;
+    padding-bottom:35px !important;
+}
+.crs.col-md-6{
+    padding-left: 56px !important;
+    border-left:1px;
+    border-left-color:  #cccccc !important;
+    border-left-style: solid;
+    margin-top: -14px !important;
+    padding-top: 14px !important;
+}
+.cr-me-blk{
+    padding-bottom:1.0rem !important;
+}
+.cr.text-muted{
+    display: inline-block !important; 
+    min-width: 112px !important;
+    font-family: Montersserat, sans-serif !important;
+}
+.text-muted{
+    display: inline-block !important;
+     min-width: 160px !important;
+     color:black !important;
+     font-family: Montersserat, sans-serif !important;
+}
+.col-md-6.Qstn {
+    padding-top: 12px !important;
+    padding-left: 33px !important;
+}
+.personal
+{
+    border-left:1px;
+    border-left-color:  #cccccc !important;
+    border-left-style: solid;
+}
+.labelqstn{
+    font-family: Montersserat, sans-serif !important;
+    font-size: 16px;
+}
+.labelcolor
+{
+    color:#5079a5  !important;
+}
+.me-qstns{
+    margin: 9px 0px 0px 15px !important;
+    border: 1px;
+    border-color:#cccccc !important;
+    border-style: solid !important;
+    width: 90% !important;
+    padding: 7px 0px 0px 18px !important;
+    font-family: sans-serif !important;
+}
+.me-content{
+    padding-left:6px !important;
+}
+.me-row{
+    margin-top:15px !important;
+}
+.nav-item{
+    font-family: sans-serif !important;
+}
+.cr-button-right-align{
+    display: inline;
+    float:right;
+    position: relative; 
+}
+.cr-mem-btn{
+    margin-left:7px;
+}
+.address-tag{
+    font-size: 15px !important;
+    font-weight: normal !important;
+    color:#5079a5 !important;
+    font-family: Montersserat, sans-serif !important;
+    word-break: break-all;
+    margin-top:-1px;
+}
+@media (min-width: 576px){
+    .form-inline .input-group{
+        width: 100%;
+    }
+}
+.heading_style{
+    color: #16276c;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+.breadcrumb > .active {
+    color: #144c87!important;
+    font-weight: 600;
+}
+.breadcrumb {
+    margin-top: 12px!important;
+    font-weight: 500;
+    font-family:  'Open Sans',sans-serif!important;
+}
+.cr-mem-address{
+    margin-top:7px;
+}
+.disableillness
+{
+    color:#80808096;
+}
+.disableillnessheading
+{
+    color:#accbed;
+}
+a.viewschedule {
+    text-decoration: underline;
+    font-size: 13px;
+}
+.alert{
+    width: 100%;
+    text-align: center;
+}
+.modal .fade .show .d-block .modal-dialog-custom-top{
+    margin-top: 90px !important;
+    background-color: rosybrown;
+}
+.schedule_title{
+    margin-top: 1%;
+    font-weight: 600;
+    font-size: 17px;
+}
+table{
+    border-bottom-color: ffff!important;
+}
+.modal-body{
+    min-height: 25vh;
+    padding: 3%;
+    overflow-y: scroll;
+}
+.switch{
+    box-sizing: content-box;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  .switch i {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 20px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    border-radius: 20px;
+    box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+  }
+  .switch i:before {
+    display: block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  }
+  .switch :checked + i {
+    padding-right: 0;
+    padding-left: 20px;
+    background: rgb(100, 189, 99);
+  }
+  .cr-ass-tgl{
+    position: relative;
+    top: 8px;
+    left: 8px;
+  }
+  .h5address
+  {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    color:#5079a5 !important;
+    font-family: Montersserat, sans-serif !important;
+    word-break: break-all !important;
+  }
+  .cr-member-tgle
+  {
+     cursor: default !important;
+  }
+  @media (min-width: 1270){
+    .cr-mem-btn{
+        margin-left: 3px;
+    }
+    .cr-btnpos{
+        padding-left: 0px;
+    }
+}
+.cr-button-right-align{
+    float: left;
+    position: relative;
+    left: -3%;
+}
+
+.address-span{
+    vertical-align: top;
+    margin-top: 10px;    
+}
+
+.address-lbl{
+    width:50%;
+}
+.sch_button
+{
+    position: absolute;
+    right: 2%;
+    padding: .7% 2% .7% 2%;
+}
+ 
+
+  

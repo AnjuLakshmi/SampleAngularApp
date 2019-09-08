@@ -1,0 +1,72 @@
+<div class="container-wrap">
+    <div class="container-fluid"> 
+        
+        <div class="body_container">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <section class="row widget widget-section1" widget>
+                    
+                    <div class="col-5">
+                        <div class="login-banner">
+                            <div class="banner-caption">
+                                <h3>Employee <br> Management Portal</h3>
+                            </div>
+                            <div class="banner-img-cont mt-2">
+                                <img src="assets/img/employee-img.png" class="banner-img">
+                            </div>     
+                            <!-- <div class="banner-text mt-5">
+                                <p>Info Text Placeholder</p>
+                            </div>         -->
+                        </div>
+                    </div>
+                    <div class="col-6 widget-body widget-body">
+                        <!-- <form class="form-horizontal" role="form"> -->
+                        <div row>
+                            <div class="col-12 mt-3" >
+                                <div *ngIf="timeout" class="col-8 mr-auto">
+                                    <span class="err-msg-timeout">Session expired, please login again...</span>
+                                </div>
+                                <div class="col-2 ml-auto">
+                                    <img class="login-logo" src="assets/img/angular.png">                   
+                                </div>
+                                <div class="row col-12 caremore-capt">
+                                    <div class="col-4 mt-2 login-caption">
+                                        <span>Username</span>    
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text"   [(ngModel)]="userName" name="username" id="username" #username class="form-control login-input" placeholder="Please enter email ID" autofocus>
+                                       
+                                    </div>
+                                </div>
+                                <div class="row col-12 mt-4">
+                                    <div class="col-4 mt-2 login-caption">
+                                        <span>Password</span>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="password" [(ngModel)]="password" name="password"  class="form-control login-input" placeholder="Please enter Password"> 
+                                        
+                                    </div>
+                                </div>
+                                <div class="row col-12 mt-4 caremore-capt-bt">
+                                    <div class="col-4"></div>
+                                    <div class="col-4 ml-auto">
+                                        <button class="btn btn-primary login-btns" (click)="cancelBtnClick();">Clear</button>
+                                    </div>
+                                    <div class="col-4 ml-auto ">
+                                        <button class="btn btn-primary ml-2 login-btns" (click)="loginBtnClick();">Login</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <div *ngIf="loginLoaderFlg" class="loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+

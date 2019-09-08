@@ -1,0 +1,76 @@
+.parsley-errors-list li {
+    list-style: none;
+    color: #f55d5d;
+    font-size: larger;
+}
+.parsley-errors-list {
+    list-style-type: none;
+    font-size: 85%;
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+.search-box,.close-icon,.search-wrapper {
+	position: relative;
+}
+
+input[type=search]::-ms-clear {
+    display: none;
+ }
+ #searchclear {
+    position: absolute;
+    right: 72px;
+    top: 0px;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+ ::ng-deep ul.ngx-pagination {
+    padding-left: 0!important;
+}
+input:-ms-input-placeholder {
+    color: #d2d4d7;
+    font-weight: 300;
+} 
+.btn-default:focus {
+    color: #29323a;
+    background-color: #dae0e5;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+.search-btns{
+    width: 100px;
+    background-color: #1a5ba3;
+    border-color: #1a5ba3;
+  }
+.heading_style{
+    color: #16276c;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 25 0 0 0;
+    font-family: "Montserrat", sans-serif;
+}
+.body_container {
+    height: 66vh;
+    overflow-y: scroll;
+    width: 100%;
+    margin:0 auto;
+    padding-bottom: 10px;
+    overflow-x: hidden;
+}
+.center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-td{
+    width: 35%;
+}
+
+

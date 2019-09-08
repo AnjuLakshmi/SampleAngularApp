@@ -1,0 +1,70 @@
+
+<app-header></app-header>
+
+<ol class="breadcrumb cr-breadcrumb">
+    <li class="breadcrumb-item"><a [routerLink]="" (click)="goHome();">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Employee Details</li>
+</ol>
+
+
+
+<div class="body_container">
+    <div class="row" class="cr-page-heading">
+        <h2 class="heading_style">Employee Details</h2>
+    </div>
+    <div style="text-align:center">
+    </div>
+    <!--Start Employee Details-->
+    <div class="row">
+        <div class="col-lg-9 mx-auto d-flex" style="margin-top:3%;width:100%;">
+            <section class="widget widget-section1" style="position: relative !important; margin:0 auto; width:95%;min-width:855px;" widget>					
+                <header class="d-flex justify-content-left cr-header">						
+                    <div class="alert alert-warning alert-sm" style="text-align: center;" *ngIf="warningFlg">
+                        <strong></strong>
+                    </div>
+                    <div class="col-md-4" style="float:left;"><span class="cr-memberid">Member ID :{{responseArray.memberId}}
+                            </span> </div>
+                    
+                </header>
+                <hr class="cr-me-hr">
+                <!-- Start Employee Basic Info-->
+                <div class="row">
+                    <div class="crb col-md-6">
+                        <div>
+                            <div class="block pt-1"><span class="cr text-muted">Name</span>
+                                <label class="h5">{{responseArray.name}}</label></div>
+                            <div class="block pt-1"><span class="cr text-muted">Email</span>
+                                <label class="h5">{{responseArray.email}}</label></div>
+                            <div class="block  pt-1"><span class="cr text-muted">Phone</span>
+                                <label class="h5">{{responseArray.phoneNumber}}</label></div>
+                            <div class="block  pt-1"><span class="cr text-muted">Location</span>
+                                <label class="h5">{{responseArray.location}}</label></div>
+                            <div class="block  pt-1">
+                                <span class="cr text-muted address-span">Address</span>
+                                <label class="h5 address-lbl" >{{responseArray.address}}</label>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                    <div class="crs col-md-6">
+                        <div>
+                            <div class="block  pt-1"><span class="text-muted">Start Date</span>
+                                <label class="h5">{{responseArray.startDate}}</label> </div>
+                            <div class="block  pt-1"><span class="text-muted">Marital Status</span>
+                                <label class="h5">{{responseArray.maritalStatus}}</label></div>
+                            <div class="block  pt-1"><span class="text-muted">Gender</span>
+                                <label class="h5">{{responseArray.gender}}</label></div>
+                            <div class="block  pt-1"><span class="text-muted">Highest Education level</span>
+                                <label class="h5">{{responseArray.qualification}}</label></div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <!-- End Employee Basic Info-->
+            </section>
+        </div>
+    </div>
+    <!-- End Employee Details -->
+</div>
+
+<app-footer></app-footer>
